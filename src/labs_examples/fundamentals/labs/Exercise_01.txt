@@ -23,3 +23,20 @@ Example Output:
     2. mkdir Terminal_testing
     3. //...
 
+My command results:
+	1. cd Documents/CodingNomads
+	2. mkdir Terminal_testing
+	3. 
+		a: touch name_01.txt name_02.txt name_03.txt
+                b: pwd
+                c: ls -al
+	5. mkdir testFolder
+	6. cp name_01.txt testFolder
+	7. mv name_02.txt testFolder
+	8. 
+		a: rm name_03.txt
+		b: rm -r testFolder
+	9.
+		a: vim name_03.txt
+		b: cat name_03.txt
+		c: egrep line name_03.txt
