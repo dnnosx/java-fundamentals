@@ -38,11 +38,11 @@ These are my list of commands:
 Init git folder:
 	1. mkdir git_practice, cd git_practice
 	2.
-		a:git init
-		b:touch newFile
-		c:go to website, create empty repo
-		d:git remote add gitpractice https://github.com/dnnosx/git-practice.git
-		d:git push -u gitpractice master
+		a: git init
+		b: touch newFile
+		c: go to website, create empty repo
+		d: git remote add gitpractice https://github.com/dnnosx/git-practice.git
+		d: git push -u gitpractice master
 		e: feel comfortable, check
 Adding remote:
 	1. done
