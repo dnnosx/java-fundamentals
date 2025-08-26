@@ -32,3 +32,26 @@ Cloning repository from Github
     3. Create new repository on Github
     4. Add new remote on local machine
     5. Push to new Github repository
+
+
+These are my list of commands:
+Init git folder:
+	1. mkdir git_practice, cd git_practice
+	2.
+		a:git init
+		b:touch newFile
+		c:go to website, create empty repo
+		d:git remote add gitpractice https://github.com/dnnosx/git-practice.git
+		d:git push -u gitpractice master
+		e: feel comfortable, check
+Adding remote:
+	1. done
+	2. git remote add https://github.com/dnnosx/git-practice-2.git
+	3. git push -u gitpractice2 master
+
+Cloning Repo
+	1. Done
+	2. git clone https://github.com/rkkr/simple-keyboard.git
+	3. Done
+	4. cd simple-keyboard, git remote add simplekeyboard https://github.com/dnnosx/simple-keyboard.git
+	5. git push -u simplekeyboard master
