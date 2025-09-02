@@ -24,6 +24,15 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
+        // widening
+        int i = 10;
+        double d = i;
+        System.out.println(d);
+
+        // narrowing
+        double x = 10.5;
+        int  j = (int) x;
+        System.out.println(j);
 
     }
 }
