@@ -25,5 +25,21 @@ public class Exercise_07 {
 
         // write completed code here
 
+        int second = 1;
+
+        int minute = second * 60;
+
+        int hour = minute * 60;
+
+        int day = hour * 24;
+
+        long total = (long)day * days;
+
+        if (days > 1) {
+            System.out.println("There are " + total + " seconds in " + days + " days!");
+        }
+            else {
+                System.out.println("There are " + total + " seconds in " + days + " day!");
+            }
     }
 }
