@@ -22,5 +22,28 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_11 {
+    public static void main(String[] args) {
+
+        // Row
+        for (int i = 1; i <= 10; i++){
+            System.out.println();
+
+            // Column
+            for (int x = 1; x <= 10; x++){
+                int product = i * x;
+
+                if (product < 10) {
+                    System.out.print(product + " |");
+                }
+                else if (x == 10 & product != 100){
+                    System.out.print(product + " |  ");
+                }
+                else {
+                    System.out.print(product + "|");
+                }
+            }
+        }
+        System.out.println("\n");
+    }
 
 }
