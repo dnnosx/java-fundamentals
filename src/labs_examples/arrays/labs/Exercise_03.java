@@ -18,6 +18,23 @@ package labs_examples.arrays.labs;
 public class Exercise_03 {
 
     public static void main(String[] args) {
-        
+        int[][] array = new int[5][5];
+        int x = 1;
+
+        for (int i = 1; i < array.length + 1; i++){
+            System.out.println();
+
+            for (int j = 0; j < array[1].length; j++){
+
+                array[i - 1][j] = x * 3;
+                x++;
+
+
+                System.out.print(array[i - 1][j]);
+                System.out.print(" ");
+            }
+
+        }
+
     }
 }
